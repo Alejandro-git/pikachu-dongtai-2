@@ -236,7 +236,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60925" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61186" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -412,4 +412,4 @@ function hmrAcceptRun(bundle, id) {
   }
 }
 },{}]},{},["C:/Users/Han/AppData/Local/Yarn/Data/global/node_modules/parcel/src/builtins/hmr-runtime.js","test.js"], null)
-//# sourceMappingURL=dist/test.e98b79dd.js.map
+//# sourceMappingURL=d:/Software/cmder/vendor/git-for-windows/test.e98b79dd.js.map
